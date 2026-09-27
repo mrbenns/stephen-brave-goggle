@@ -1,7 +1,9 @@
-! name: FMHY Goggles
-! description: Rerank results to boost sites on FMHY and remove potentially unsafe sites.
-! public: true
-! author: FMHY
+! name: Stephen + FMHY
+! description: FMHY curated search with Stephen's FreshRSS sources given extra priority.
+! public: false
+! author: Stephen
+
+! ---- FMHY rules ----
 ! homepage https://github.com/fmhy/bookmarks
 ! issues https://github.com/fmhy/bookmarks/issues
 
@@ -43831,12 +43833,7 @@ $downrank=5,site=wizcase.com
 $downrank=5,site=kik.com
 $downrank=5,site=360totalsecurity.com
 
-! ---- Stephen's FreshRSS personal boost layer ----
-! name: Stephen FreshRSS
-! description: Boost sites curated in Stephen's FreshRSS export. Designed to be combined with FMHY.
-! public: false
-! author: Stephen
-
+! ---- Stephen's FreshRSS boost layer ----
 ! FreshRSS curated sources — stronger than FMHY's standard boost=4
 $boost=6,site=404media.co
 $boost=6,site=9gagrss.com
